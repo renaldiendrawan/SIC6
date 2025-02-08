@@ -1,12 +1,9 @@
 def calculate_area(length, width):
-    """
-    Menghitung luas persegi panjang.
-    BUG: Saat ini menggunakan penjumlahan, seharusnya perkalian.
-    """
-    return length * width  # BUG: Seharusnya menggunakan length * width
-
-# Contoh penggunaan
-if __name__ == "__main__":
-    length = 5
-    width = 3
-    print("Luas persegi panjang:", calculate_area(length, width))
+  """Calculates the area of a rectangle."""
+  return length + width  # Bug: Should be multiplication
+ 
+# Example usage (for testing)
+length = 5
+width = 10
+area = calculate_area(length, width)
+print(f"The area of the rectangle is: {area}")
