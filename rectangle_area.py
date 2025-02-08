@@ -9,4 +9,6 @@ def calculate_area(length, width):
 if __name__ == "__main__":
     length = 5
     width = 3
+    length = 2000
+    width = 311
     print("Luas persegi panjang:", calculate_area(length, width))
