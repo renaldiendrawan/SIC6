@@ -4,6 +4,7 @@ def calculate_area(length, width):
     BUG: Saat ini menggunakan penjumlahan, seharusnya perkalian.
     """
     return length * width  # BUG: Seharusnya menggunakan length * width
+    #ariiii
 
 # Contoh penggunaan
 if __name__ == "__main__":
