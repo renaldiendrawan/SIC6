@@ -1,4 +1,5 @@
 def calculate_area(length, width):
+
     """
     Menghitung luas persegi panjang.
     BUG: Saat ini menggunakan penjumlahan, seharusnya perkalian.
